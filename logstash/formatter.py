@@ -127,7 +127,7 @@ class LogstashFormatterVersion1(LogstashFormatterBase):
             'type': self.message_type,
 
             # Extra Fields
-            'level': record.levelname,
+            'levelname': record.levelname,
             'logger_name': record.name,
         }
 
